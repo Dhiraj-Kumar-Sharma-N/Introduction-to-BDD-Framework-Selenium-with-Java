@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="185.204458">
+<testcase classname="MS Teams Login Page Test Cases" name="Verify Incorrect UserName Error Message is Displayed when User Logs in with Incorrect UserName" time="25.214213">
+<system-out><![CDATA[Given User Navigate to MSTeams login page...................................passed
+When User Enter a InCorrect User Name & Click Next..........................passed
+Then Incorrect UserName Error Message is Displayed..........................passed
+]]></system-out>
+</testcase>
+<testcase classname="MS Teams Login Page Test Cases" name="Verify InvalidUserName Error/InvalidPhoneNo Msg is Displayed when User Logs in with Invalid UserName" time="24.137174">
+<system-out><![CDATA[Given User Navigate to MSTeams login page...................................passed
+When User Enter InValid User Name & Click Next..............................passed
+Then Invalid UserName Error Message is Displayed............................passed
+When User Clears the InvalidUserName and Enters Exception UserName and Clicks on Next.passed
+Then InvalidPhoneNo Error Message is Displayed..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="MS Teams Login Page Test Cases" name="Verify Incorrect Password Error Message is Displayed when User Logs in with Valid UserName and Invalid Password" time="37.073186">
+<system-out><![CDATA[Given User Navigate to MSTeams login page...................................passed
+When User Enter a Valid User Name & Click Next..............................passed
+And User Enter InValid Password & Click SignIn..............................passed
+Then Incorrect Password Error Message is Displayed..........................passed
+]]></system-out>
+</testcase>
+<testcase classname="MS Teams Login Page Test Cases" name="Verify User is able to Login and Log out to MS Teams with valid UserName and Valid Password" time="98.779885">
+<system-out><![CDATA[Given User Navigate to MSTeams login page...................................passed
+When User Enter a Valid User Name & Click Next..............................passed
+And User Enter Valid Password & Click SignIn................................passed
+Then AppPromotion Page is Displayed.........................................passed
+When On selection WebApp link on AppPromotion Page..........................passed
+Then Signed In Successfully.................................................passed
+When User SignOut from the application......................................passed
+Then Signed Out Successfully................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

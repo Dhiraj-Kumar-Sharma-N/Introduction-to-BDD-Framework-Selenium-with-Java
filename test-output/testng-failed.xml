@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="BrowserName" value="chrome"/>
+  <parameter name="Environment" value="Stage"/>
+  <listeners>
+    <listener class-name="com.aa.cme.Utilities.TestCaseListener"/>
+  </listeners>
+  <test name="Test(failed)">
+    <parameter name="BrowserName" value="chrome"/>
+    <parameter name="Environment" value="Stage"/>
+    <classes>
+      <class name="com.aa.cme.TestRunners.TestRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- com.aa.cme.TestRunners.TestRunner -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="188998" started-at="2020-04-24T14:41:17Z" finished-at="2020-04-24T14:44:26Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.aa.cme.TestRunners.TestRunner@30b8a058]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Test" duration-ms="188998" started-at="2020-04-24T14:41:17Z" finished-at="2020-04-24T14:44:26Z">
+      <class name="com.aa.cme.TestRunners.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.aa.cme.TestRunners.TestRunner@30b8a058]" name="setUpClass" is-config="true" duration-ms="438" started-at="2020-04-24T09:41:19Z" finished-at="2020-04-24T09:41:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.aa.cme.TestRunners.TestRunner@30b8a058]" name="feature" duration-ms="25909" started-at="2020-04-24T09:41:20Z" data-provider="features" finished-at="2020-04-24T09:41:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Incorrect UserName Error Message is Displayed when User Logs in with Incorrect UserName"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["MS Teams Login Page Test Cases"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.aa.cme.TestRunners.TestRunner@30b8a058]" name="feature" duration-ms="24174" started-at="2020-04-24T09:41:46Z" data-provider="features" finished-at="2020-04-24T09:42:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify InvalidUserName Error/InvalidPhoneNo Msg is Displayed when User Logs in with Invalid UserName"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["MS Teams Login Page Test Cases"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.aa.cme.TestRunners.TestRunner@30b8a058]" name="feature" duration-ms="37088" started-at="2020-04-24T09:42:10Z" data-provider="features" finished-at="2020-04-24T09:42:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Incorrect Password Error Message is Displayed when User Logs in with Valid UserName and Invalid Password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["MS Teams Login Page Test Cases"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.aa.cme.TestRunners.TestRunner@30b8a058]" name="feature" duration-ms="98811" started-at="2020-04-24T09:42:47Z" data-provider="features" finished-at="2020-04-24T09:44:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify User is able to Login and Log out to MS Teams with valid UserName and Valid Password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["MS Teams Login Page Test Cases"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.aa.cme.TestRunners.TestRunner@30b8a058]" name="tearDownClass" is-config="true" duration-ms="130" started-at="2020-04-24T09:44:26Z" finished-at="2020-04-24T09:44:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.aa.cme.TestRunners.TestRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
